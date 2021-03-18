@@ -44,7 +44,7 @@ App ini digunakan untuk memprediksi bioactivity terhadap penghambatan enzim dari
 with st.sidebar.header('Upload CSV/TXT'):
     uploaded_file = st.sidebar.file_uploader("Upload input file", type=['txt'])
     st.sidebar.markdown("""
-[Input file example](https://raw.githubusercontent.com/ariandy/)
+[Input file example](https://raw.githubusercontent.com/ariandy/Cytochrome-P450-19A1-Inhibitors/master/test.txt)
 """)
 
 if st.sidebar.button('Prediction'):
